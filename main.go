@@ -1,4 +1,4 @@
-package main
+package arrays
 
 // ContainsString Returns true if `needle`is contained in `haystack`.
 func ContainsString(haystack []string, needle string) bool {
