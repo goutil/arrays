@@ -17,13 +17,11 @@ func ContainsString(haystack []string, needle string) bool {
 }
 
 // ShuffleInt64 Shuffles array of int64
-func ShuffleInt64(items []int64) {
-	n := int64(len(items))
-	for n > 1 {
+func ShuffleInt64(a []int64) {
+	n := int64(len(a))
+	for n > 0 {
 		r := security.RandInt63() % n
-		items[r] ^= items[n-1]
-		items[n-1] ^= items[r]
-		items[r] ^= items[n-1]
+		a[r], a[n-1] = a[n-1], a[r]
 		n--
 	}
 }
