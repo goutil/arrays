@@ -1,3 +1,4 @@
+// Package arrays implements some useful algorithms for working with arrays.
 package arrays
 
 import "github.com/goutil/security"

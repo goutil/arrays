@@ -1,2 +1,4 @@
 # arrays
-A bunch of array-related functions for the Go language.
+[![GoDoc](https://godoc.org/github.com/goutil/arrays?status.svg)](https://godoc.org/github.com/goutil/arrays)
+
+Package arrays implements some useful algorithms for working with arrays. 
